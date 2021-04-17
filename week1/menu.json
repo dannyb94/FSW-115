@@ -1,0 +1,83 @@
+{
+    "appetizers" : [
+        {
+            "name" : "spinach dip",
+            "ingredients" : ["spinach", "artichokes", "cheese"],
+            "description" : {
+                "something1" : "When it's code outside, warm up with our family's spinach dip recipe."
+            }
+        },
+        {
+            "name" : "caesar salad",
+            "ingredients" : ["lettuce", "parmesan", "croutons"],
+            "description" : {
+                "something2" : "Take a <br> and enjoy a good caesar."
+            }
+        }
+    ],
+    "coldSandwiches" : [
+        {
+            "name" : "club sub",
+            "ingredients" : ["turkey", "bacon", "provolone", "ham", "mayo"],
+            "description" : {
+                "something1" : "Lose ctrl with our famous club sub."
+            }
+        },
+        {
+            "name" : "the veggie",
+            "ingredients" : ["provolone", "swiss", "bell peppers", "lettuce", "mayo"],
+            "description" : {
+                "something2" : "Nothing wrong with a great veg sandwich. Stop the cyber boolean."
+            }
+        }
+    ],
+    "hotSandwiches" : [
+        {
+            "name" : "the porta",
+            "ingredients" : ["portabello mushrooms", "bell peppers", "onions", "swiss"],
+            "description" : {
+                "something1" : "Dance to the algo-rythym when you bite into the porta."
+            }
+        },
+        {
+            "name" : "cheese steak",
+            "ingredients" : ["grilled onions", "peppers", "american", "chipotle mayo"],
+            "description" : {
+                "something2" : "Beware the onions. They taste great, but you may have to open a window afterwards."
+            }
+        }
+    ],
+    "desserts" : [
+        {
+            "name" : "brownie",
+            "ingredients" : ["chocolate chips", "pecans", "caramel"],
+            "description" : {
+                "something1" : "Get arrays when you buy these gooey brownies for your boss."
+            }
+        },
+        {
+            "name" : "chocolate chunk cookie",
+            "ingredients" : ["chocolate chunks", "flour", "sugar", "eggs"],
+            "description" : {
+                "something2" : "Grab a byte of these gluten-free cookies."
+            }
+        }
+    ],
+    "drinks" : [
+        {
+            "name" : "blueberry lemonade",
+            "ingredients" : ["bluberries", "lemon juice", "water", "sugar"],
+            "description" : {
+                "something1" : "For the nth time, order the lemonade to git through the day."
+                
+            }
+        },
+        {
+            "name" : "iced tea",
+            "ingredients" : ["green tea", "agave", "blackberries", "mint"],
+            "description" : {
+                "something2" : "A refreshing drink that keeps you C#!"
+            }
+        }
+    ]
+}
