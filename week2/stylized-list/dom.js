@@ -142,3 +142,5 @@ var styledList = document.getElementById('R&M');
 for (var i = 0; i < dataList.length; i++){
     styledList.innerHTML += '<li>' + `${dataList[i].name}, ${dataList[i].status}, ${dataList[i].species}, ${dataList[i].gender}` + '</li>'
 }
+
+console.log(document.getElementById('R&M'));
