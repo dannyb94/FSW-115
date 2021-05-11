@@ -4,21 +4,21 @@
 •Must be fully styled - responsive
 •2 APIs must be used, (one for each page)
 */
+var myBtn = document.getElementById("first");
+myBtn.addEventListener('click', e => {
+    axios.get('https://rickandmortyapi.com/api/character/1,67,45,183')
+    //.then(res => console.log(res))
+    .then(res => {
+        for (let i = 0; i , res.data.length; i++){
+            var brk = document.createElement('br')
+            const header = document.createElement('h3')
+            const images = new Image()
+            images.src = res.data[i].image;
+            header.textContent = `${images}${brk}${res.data[i].name}`
+            document.body.appendChild(header)
+            //document.body.appendChild(images)
+        }
+    })
+    .catch(err => console.log(err))
+});
 
-axios.get('http://api.bryanuniversity.edu/dussery/list')
-//.then(res => console.log(res))
-.then(res => {
-    for(let i = 0; i < res.data.length; i++){
-        const para = document.createElement('p')
-        para.textContent = res.data[i].name
-        document.body.appendChild(para)
-    }
-    if(res.isComplete === true){
-        return res.data.strike();
-    } else if(res.isComplete === false){
-        console.log("Item not complete.");
-    }
-})
-.catch(err => console.log(err)) 
-
-/**/
