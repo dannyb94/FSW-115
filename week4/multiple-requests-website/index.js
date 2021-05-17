@@ -10,11 +10,11 @@ myBtn.addEventListener('click', e => {
     //.then(res => console.log(res))
     .then(res => {
         for (let i = 0; i , res.data.length; i++){
-            var brk = document.createElement('br')
+            //var brk = document.createElement('br')
             const header = document.createElement('h3')
-            const images = new Image()
-            images.src = res.data[i].image;
-            header.textContent = `${images}${brk}${res.data[i].name}`
+            //const images = new Image()
+            //images.src = res.data[i].image;
+            header.textContent = res.data[i].name //`${images}${brk}${res.data[i].name}`
             document.body.appendChild(header)
             //document.body.appendChild(images)
         }
