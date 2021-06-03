@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>To Do 2.0</h1>
+
+        <form name="listForm">
+            <input type="text" name="name" placeholder="Add New Item">
+            <input type="text" name="details" placeholder="Detailed Info Here">
+            <button id="enter" name="enter">Submit</button>
+        </form>
+
+        <!--<button class="trash">–</button>-->
+
+        <div id="listCntnr">
+            <div id="sections"></div>
+        </div>
+        <!--<input type="checkbox" id="checkOff">-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+        <script src="todo.js" async defer></script>
+    </body>
+</html>

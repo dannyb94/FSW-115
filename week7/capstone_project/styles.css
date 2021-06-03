@@ -1,0 +1,49 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(41, 50, 66);
+    text-align: center;
+}
+
+@keyframes header {
+    from {
+        color: rgb(41, 50, 66);
+        text-shadow: none;
+    }
+    to {
+        color: mintcream;
+        text-shadow: 3px 4px rgba(0, 0, 0, 0.459);
+    }
+}
+
+h1 {
+    color: mintcream;
+    font-size: 50px;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.459);
+    animation-name: header;
+    animation-duration: 6s;
+}
+
+input {
+    background-color: rgb(75, 135, 202);
+    border-radius: 3px;
+    border-style: none;
+    padding: 5px;
+    color: mintcream;
+    font-weight: 500;
+}
+
+h4 {
+    color: rgb(240, 199, 65);
+}
+
+p {
+    color: mintcream;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    font-weight: 600;
+    font-kerning: 15;
+}
